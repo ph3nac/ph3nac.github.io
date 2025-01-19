@@ -1,5 +1,3 @@
-theme = "after-dark"
-
 # The URL the site will be built for
 base_url = "https://ph3nac.github.io"
 
