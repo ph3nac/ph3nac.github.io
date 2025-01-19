@@ -1,3 +1,11 @@
+theme = "after-dark"
+
+taxonomies = [
+  # You can enable/disable RSS
+  { name = "categories", feed = true },
+  { name = "tags", feed = true },
+]
+
 # The URL the site will be built for
 base_url = "https://ph3nac.github.io"
 
@@ -11,6 +19,25 @@ build_search_index = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "one-dark"
+
+[search]
+index_format = "elasticlunr_json"
 
 [extra]
 # Put all your custom variables here
+
+after_dark_title = "Ph3nac's Blog"
+
+after_dark_menu = [
+  { url = "$BASE_URL", name = "Home" },
+  { url = "$BASE_URL/categories", name = "Categories" },
+  { url = "$BASE_URL/tags", name = "Tags" },
+  { url = "$BASE_URL/about", name = "About" },
+]
+
+codeblock = true
+
+latex = true
+
+enable_search = true
