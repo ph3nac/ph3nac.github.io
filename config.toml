@@ -7,13 +7,22 @@ taxonomies = [
 ]
 
 # The URL the site will be built for
-base_url = "https://ph3nac.github.io"
+base_url = "https://ph3nac.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
+# no japanese support
+build_search_index = false
+
+feed_filenames = ["rss.xml"]
+generate_feeds = true
+feed_limit = 20
+
+generate_sitemap = true
+
+default_language = "ja"
 
 [markdown]
 # Whether to do syntax highlighting
