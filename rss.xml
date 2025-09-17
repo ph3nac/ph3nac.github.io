@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+      <link>https://ph3nac.github.io</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://ph3nac.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>ようこそ</title>
+          <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://ph3nac.github.io/2024-01-09/</link>
+          <guid>https://ph3nac.github.io/2024-01-09/</guid>
+          <description xml:base="https://ph3nac.github.io/2024-01-09/">&lt;p&gt;ようこそ．ph3nacのブログへ．&lt;&#x2F;p&gt;
+&lt;p&gt;オーディオプログラミングとかWeb技術とか，そのほかポエムなど&lt;&#x2F;p&gt;
+&lt;p&gt;QiitaやZennにまとめるには散らばりすぎているような情報をここにまとめていきます．&lt;&#x2F;p&gt;
+&lt;p&gt;このブログは，&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&quot;&gt;zola&lt;&#x2F;a&gt;でSSGしています．&lt;&#x2F;p&gt;
+&lt;p&gt;zolaは，Rustで書かれた静的サイトジェネレータで，after-darkとかいうテーマを使っているんだけどなんか長文の場合いい感じにdescriptionにしてRead moreを表示してくれるので見た目が映える．&lt;&#x2F;p&gt;
+&lt;p&gt;TODO: search-barはあるんだけど，zolaはdefault-languageを一つしか設定できないっぽくて，日本語検索するにはzolaをビルドしなくちゃいけない&amp;amp;github acitionsで毎回ビルドする必要あんのかなあとか思って先送りしました．&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>About me</title>
+          <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://ph3nac.github.io/about/</link>
+          <guid>https://ph3nac.github.io/about/</guid>
+          <description xml:base="https://ph3nac.github.io/about/">&lt;p&gt;Hi, I&#x27;m ph3nac. I&#x27;m a software engineer, musical instruments software enthusiast.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ph3nac&quot;&gt;github&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;ph3nac&quot;&gt;x&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;bsky.app&#x2F;profile&#x2F;ph3nac.bsky.social&quot;&gt;bluesky&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
